@@ -1,0 +1,58 @@
+
+h1{
+    text-shadow: 2px 2px 2px rgb(226, 226, 234), -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+h1{
+    padding-bottom: 21px;
+}
+.box{
+    background-image: linear-gradient(white,white,black);
+    margin-top: 12%;
+    margin-bottom: 12%;
+    height: 380px;
+    width: 400px;
+    border: 3px solid rgb(8, 8, 8);
+    padding: 10px;
+}
+button{
+    height: 40px;
+    width: 40px;
+    left:10px;
+}
+#result{
+    height:27px;
+    box-shadow: 3px 4px 2px rgb(16, 16, 16);
+    margin-bottom: 30px;
+}
+button{
+    background-image: linear-gradient(grey,yellow);
+   margin-left: 4px;
+   margin-bottom: 3px;
+    box-shadow: 3px 4px 2px rgb(17, 16, 17);
+    border-radius: 50%;}
+button:hover {
+    color: black;
+    outline: 0.05em solid rgb(14, 14, 15);
+    z-index: 3;
+    top: -4px;
+    height: 40px;
+    width: 40px;
+
+}
+.box:hover #result{
+    border-radius: 50px;
+    box-shadow: 4px 6px 2px rgb(8, 8, 8);
+   
+}
+.box:hover h1{
+    text-shadow: 2px 2px  rgb(19, 29, 219);
+}
+body {
+    background-color: gray;
+    animation: changeColor 5s infinite;
+content: "";
+height: 100%;
+width: 90%;
+
+}
